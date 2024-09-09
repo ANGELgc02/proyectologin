@@ -1,0 +1,147 @@
+@import url();
+
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: url(../multimedia/sol.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.contenedor{
+    position: relative;
+    width: 400px;
+    backdrop-filter: blur(70px);
+    border-radius: 20px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor h2{
+    font-size: 35px;
+    color: white;
+    text-align: center;
+}
+
+.con{
+    position: relative;
+    margin:  30px 0;
+    width: 300px;
+    border-bottom: 2px solid rgb(226, 229, 235);
+}
+
+.con label{
+    position: absolute;
+    top:50%;
+    left: 5px;
+    transform:  translateY(-50%);
+    color:rgb(252, 246, 246);
+    font-size: 1rem;
+    pointer-events: none;
+    transition: .6s;
+    font-weight: blod;
+}
+
+input:focus ~ label,
+input:valid ~ label
+{
+top: -5px;
+}
+
+.con input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    padding: -35px 0 5px;
+    color: rgb(255, 255, 255);
+}
+
+.con i{
+    position: absolute;
+    color: white;
+    font-size: 2 rem;
+    top: 19px;
+    right: 8px;
+}
+
+.olvidar{
+    margin: -15px 0 15px;
+    font-size: .9em;
+    color: white;
+    padding: 3px;
+    
+}
+
+.olvidar label input{
+    margin: 8px;
+}
+
+.olvidar label a{
+    color: white;
+    text-decoration: none;
+    transition: .3s;
+    font-size: .9em;
+}
+
+.olvidar label a:hover{
+    text-decoration: underline;
+}
+
+button{
+    width: 100%;
+    height: 45px;
+    border-radius: 40px;
+    background-color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    font-size: 1rem;
+    transition: .4s;
+}
+
+button:hover{
+    opacity: .9s;
+    background: rgb(128, 58, 194);
+    
+}
+
+
+.registrarse{
+    font-size: .8rem;
+    color: white;
+    text-align: center;
+    margin: 20px 0 10 px;
+}
+
+.registrarse p a{
+
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: .3s;
+    font-family: "Poppins", sans-serif;
+}
+.registrarse p a:hover {
+    text-decoration: underline;
+    
+
+}
+
+
+
+
